@@ -40,13 +40,13 @@
 ## 🧠 ארכיטקטורת המערכת (Workflow)
 
 ```mermaid
-graph TD
-    A[Marketing Manager] -->|API Request| B(FastAPI Backend)
-    B -->|LlamaIndex Workflows| C{AI Engines}
-    C -->|Data Collection| D[Sentiment Analysis]
-    D -->|RAG Architecture| E(Content Agent + Pinecone)
-    E -->|Generate Content| F[React Dashboard]
-    B -.->|SSE Streaming| FF
+flowchart TD
+    User --> Backend
+    Backend --> AI_Engines
+    AI_Engines --> Sentiment_Analysis
+    Sentiment_Analysis --> RAG_Content_Agent
+    RAG_Content_Agent --> Dashboard
+    Backend -.-> Dashboard
 
 שיחה עם Gemini
 שלום אני רוצה להוסיף לחשבון הגיטאב שלי פרויקט חשוב בתכנות אנ מציינת אני סטודנטית שמסיימת לימודי נהנדסת תכונה ויש לי קורות חיים אני רוצה לצרף פרויקט שעשינוע םה מכללה שלנו במסגרת האקתון בחברת ביטוח ישיר זה הפרזנטציה למור הפרזנטציה שלנו:
