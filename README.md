@@ -41,12 +41,12 @@
 
 ```mermaid
 graph TD
-    A[הפעלת סריקה] -->|API Request| B(FastAPI Backend)
-    B -->|LlamaIndex| C{מנועי AI המובילים}
-    C -->|איסוף תשובות| D[ניתוח ב-12 מדדים]
-    D -->|RAG| E(Content Agent + Pinecone)
-    E -->|יצירת תוכן| F[React Dashboard]
-    B -.->|SSE Streaming| F
+    A[Marketing Manager] -->|API Request| B(FastAPI Backend)
+    B -->|LlamaIndex Workflows| C{AI Engines}
+    C -->|Data Collection| D[Sentiment Analysis]
+    D -->|RAG Architecture| E(Content Agent + Pinecone)
+    E -->|Generate Content| F[React Dashboard]
+    B -.->|SSE Streaming| FF
 
 שיחה עם Gemini
 שלום אני רוצה להוסיף לחשבון הגיטאב שלי פרויקט חשוב בתכנות אנ מציינת אני סטודנטית שמסיימת לימודי נהנדסת תכונה ויש לי קורות חיים אני רוצה לצרף פרויקט שעשינוע םה מכללה שלנו במסגרת האקתון בחברת ביטוח ישיר זה הפרזנטציה למור הפרזנטציה שלנו:
