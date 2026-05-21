@@ -75,4 +75,28 @@
      │
      ▼ (הזרמת נתונים חיה - SSE Streaming)
 [ מרכז בקרה - React Dashboard ]
-🛠️ סטק טכנולוגיצד לקוח (Frontend)צד שרת (Backend)AI & Data InfrastructureReactPythonGPT-4o, Gemini, PerplexityTypeScriptFastAPILlamaIndex WorkflowsEventSource (SSE)PostgreSQLPinecone (Vector DB)Lucide-ReactSQLAlchemyRAG Architecture
+
+🛠️ סטק טכנולוגי (Tech Stack)
+💻 צד לקוח (Frontend)
+
+React & TypeScript - לבניית ממשק משתמש אמין, מודולרי ומהיר.
+
+EventSource (SSE) - לניהול הזרמת נתונים ותהליכי חשיבת ה-AI בזמן אמת.
+
+Lucide-React - לעיצוב נקי עם סט אייקונים מודרני.
+
+⚙️ צד שרת (Backend)
+
+Python & FastAPI - שרת אסינכרוני בעל ביצועים גבוהים המותאם לעבודה עם סוכני AI.
+
+PostgreSQL & SQLAlchemy - בסיס נתונים רלציוני חזק לניהול שאילתות, משתמשים ולוגים.
+
+🧠 תשתית AI ונתונים (AI & Data Infrastructure)
+
+LLM Engines - אינטגרציה מתקדמת מול מנועי ה-APIs של GPT-4o, Gemini ו-Perplexity.
+
+LlamaIndex Workflows - לניהול תהליכי עבודה מורכבים (Multi-Agent Workflows) ותזמור הסוכנים.
+
+Pinecone (Vector DB) - מסד נתונים וקטורי מהיר לשמירה ושליפה של אמבדינגס.
+
+RAG Architecture - ארכיטקטורת שליפה מועשרת למניעת הזיות והבטחת 100% דיוק עובדתי.
