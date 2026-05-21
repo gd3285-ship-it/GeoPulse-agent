@@ -39,14 +39,18 @@
 
 ## 🧠 ארכיטקטורת המערכת (Workflow)
 
-```mermaid
-flowchart TD
-    User --> Backend
-    Backend --> AI_Engines
-    AI_Engines --> Sentiment_Analysis
-    Sentiment_Analysis --> RAG_Content_Agent
-    RAG_Content_Agent --> Dashboard
-    Backend -.-> Dashboard
+[ מנהל שיווק ]
+     │
+     ▼ (בקשת API)
+[ שרת ה-Backend ] 
+     │
+     ├──▶ 🤖 מנועי AI (סריקה ואיסוף נתונים מ-GPT, Gemini, Perplexity)
+     ├──▶ 📊 ניתוח סנטימנט (עיבוד 12 קטגוריות אסטרטגיות)
+     ├──▶ 📚 ארכיטקטורת RAG (שליפת נתוני אמת מ-Pinecone)
+     └──▶ ✍️ סוכן קופירייטינג (ג'ינרוט תוכן שיווקי מתקן)
+     │
+     ▼ (הזרמת נתונים חיה - SSE Streaming)
+[ מרכז בקרה - React Dashboard ]
 
 שיחה עם Gemini
 שלום אני רוצה להוסיף לחשבון הגיטאב שלי פרויקט חשוב בתכנות אנ מציינת אני סטודנטית שמסיימת לימודי נהנדסת תכונה ויש לי קורות חיים אני רוצה לצרף פרויקט שעשינוע םה מכללה שלנו במסגרת האקתון בחברת ביטוח ישיר זה הפרזנטציה למור הפרזנטציה שלנו:
